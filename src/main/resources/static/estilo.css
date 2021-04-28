@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 90vw;
+   
+}
+.container-usuarios{
+    width: 600px;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    transition: 0.2s;
+}
+.container-cadastro .form-group{
+    margin: 30px;
+}
+
+.form-table{
+    min-width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form{
+    border: solid 1px rgb(6, 115, 216);
+    border-radius: 10px;
+    width:30rem;
+    padding:50px;
+    background-color: rgba(146, 141, 141, 0.479);
+   transition: 0.5s;
+}
+form h1,p{
+    text-align: center;
+}
+form input{
+    display: flex;
+    margin-left: 40px;
+    margin-top:5px;
+    width: 300px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border: rgb(101, 101, 240);
+    text-align: center;
+
+}
+form .btn{
+    width: 100px;
+    margin-left: 0px;
+
+}
+td .btn-escond{
+    overflow: auto;
+    display: none;
+}
+td:hover .btn-escond{
+    display: block;
+}
+.col-sm-5{
+    padding: 0;
+}
+.a-controle-delete{
+    color: #fff;
+    text-decoration: none;
+}
+.modal {
+    margin-left: 500px;
+    text-align: center;
+}
+.modal h4{
+    text-align: center;
+}
+.modal form{
+    flex-direction: column;
+}
+a:link{
+    text-decoration: none;
+}
+.btn-editar:hover{
+    color: rgb(47, 47, 155);
+}
+@media screen and (max-width: 1040px){
+
+    .container-usuarios{
+        width: 90%;
+        padding: 0;
+    }
+    .container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    form{
+        width: 100%;
+        
+    }
+    form input{
+        width: 100%;
+        margin-left: 5px;
+    }
+    form .btn{
+        width: 100%;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+    table{
+        width: 360px;
+    }
+
+}
